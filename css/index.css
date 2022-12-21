@@ -1,11 +1,9 @@
 .parentContainer {
     display: flex;
-    align-self: center;
     background: #ECFDF5;
     flex-direction: column;
     width: 30%;
-    margin-left: 35%;
-    margin-top: 10%;
+    margin: auto;
 }
 
 .container1 {
@@ -15,21 +13,21 @@
     margin-top: 2rem;
 }
 
-.container1>.heading {
+.heading {
     font-family: 'Karla';
     color: #2B283A;
 }
 
-.container1>.heading>span {
+.heading>span {
     color: #10B981;
 }
 
-.container1>.text {
+.text {
     font-family: 'Inter';
     color: #6B7280;
 }
 
-.container1>.passwordBtn {
+.passwordBtn {
     padding: 10px 20px 10px 15px;
     background: #10B981;
     border-radius: 5px;
@@ -45,17 +43,7 @@
     margin-bottom: 4rem;
 }
 
-.container2>.leftPassword {
-    padding: 5px;
-    background: #273549;
-    border-radius: 5px;
-    border-color: #273549;
-    font-family: 'Inter';
-    text-align: center;
-    color: #5DEF92;
-}
-
-.container2>.rightPassword {
+.password {
     padding: 5px;
     background: #273549;
     border-radius: 5px;
