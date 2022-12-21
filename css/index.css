@@ -1,16 +1,21 @@
+.rootContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .parentContainer {
+    padding: 3% 0 5%;
     display: flex;
     background: #ECFDF5;
     flex-direction: column;
     width: 30%;
-    margin: auto;
 }
 
 .container1 {
     display: flex;
     align-self: center;
     flex-direction: column;
-    margin-top: 2rem;
 }
 
 .heading {
@@ -40,7 +45,6 @@
     display: flex;
     align-self: center;
     gap: 1rem;
-    margin-bottom: 4rem;
 }
 
 .password {
