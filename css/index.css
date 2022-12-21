@@ -1,0 +1,72 @@
+.parentContainer {
+    display: flex;
+    align-self: center;
+    background: #ECFDF5;
+    flex-direction: column;
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 10%;
+}
+
+.container1 {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.container1>.heading {
+    font-family: 'Karla';
+    color: #2B283A;
+}
+
+.container1>.heading>span {
+    color: #10B981;
+}
+
+.container1>.text {
+    font-family: 'Inter';
+    color: #6B7280;
+}
+
+.container1>.passwordBtn {
+    padding: 10px 20px 10px 15px;
+    background: #10B981;
+    border-radius: 5px;
+    border-color: #10B981;
+    font-family: 'Inter';
+    color: #FFFFFF;
+}
+
+.container2 {
+    display: flex;
+    align-self: center;
+    gap: 1rem;
+    margin-bottom: 4rem;
+}
+
+.container2>.leftPassword {
+    padding: 5px;
+    background: #273549;
+    border-radius: 5px;
+    border-color: #273549;
+    font-family: 'Inter';
+    text-align: center;
+    color: #5DEF92;
+}
+
+.container2>.rightPassword {
+    padding: 5px;
+    background: #273549;
+    border-radius: 5px;
+    border-color: #273549;
+    font-family: 'Inter';
+    text-align: center;
+    color: #5DEF92;
+}
+
+.lane {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border: 1px solid #D5D4D8;
+}
