@@ -1,64 +1,60 @@
-.rootContainer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .parentContainer {
-    padding: 3% 0 5%;
-    display: flex;
-    background: #ECFDF5;
-    flex-direction: column;
-    width: 30%;
+  padding: 2rem 0 4rem;
+  display: flex;
+  background: #ecfdf5;
+  flex-direction: column;
+  width: 30%;
+  margin: auto;
 }
 
 .container1 {
-    display: flex;
-    align-self: center;
-    flex-direction: column;
+  display: flex;
+  align-self: center;
+  flex-direction: column;
 }
 
 .heading {
-    font-family: 'Karla';
-    color: #2B283A;
+  font-family: "Karla", sans-serif;
+  color: #2b283a;
+  text-align: center;
 }
 
-.heading>span {
-    color: #10B981;
+.heading > span {
+  color: #10b981;
 }
 
 .text {
-    font-family: 'Inter';
-    color: #6B7280;
+  font-family: "Inter", sans-serif;
+  color: #6b7280;
 }
 
 .passwordBtn {
-    padding: 10px 20px 10px 15px;
-    background: #10B981;
-    border-radius: 5px;
-    border-color: #10B981;
-    font-family: 'Inter';
-    color: #FFFFFF;
+  padding: 10px 20px 10px 15px;
+  background: #10b981;
+  border-radius: 5px;
+  border-color: #10b981;
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+  cursor: pointer;
 }
 
 .container2 {
-    display: flex;
-    align-self: center;
-    gap: 1rem;
+  display: flex;
+  align-self: center;
+  gap: 1rem;
 }
 
 .password {
-    padding: 5px;
-    background: #273549;
-    border-radius: 5px;
-    border-color: #273549;
-    font-family: 'Inter';
-    text-align: center;
-    color: #5DEF92;
+  padding: 5px;
+  background: #273549;
+  border-radius: 5px;
+  border-color: #273549;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  color: #5def92;
 }
 
 .lane {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    border: 1px solid #D5D4D8;
+  margin: 2rem 0;
+  border: 1px solid #d5d4d8;
 }
